@@ -1,0 +1,1 @@
+- local.overrides.quirks: sits in /etc/libinput/ and matches the virtaul keyd keyboard with the internal touchpad, so Disable-While-Typing works in libinput again
