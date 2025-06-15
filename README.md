@@ -1,1 +1,3 @@
-- local.overrides.quirks: sits in /etc/libinput/ and matches the virtaul keyd keyboard with the internal touchpad, so Disable-While-Typing works in libinput again
+- local-overrides.quirks: /etc/libinput/local-overrides.quirks - matches the virtaul keyd keyboard with the internal touchpad, so Disable-While-Typing works in libinput again
+- batenergy.sh: /lib/systemd/system-sleep/batenergy.sh - reports energy stats from during suspend after waking from suspend. Grew from https://github.com/equaeghe/batenergy, so many thanks to equaeghe!
+- keyd.conf: /etc/keyd/default.conf - config for fixing US International layout with keyd
